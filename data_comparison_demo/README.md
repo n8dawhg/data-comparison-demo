@@ -7,19 +7,21 @@ The script in main.py creates a datacompy comparison report between two hypothet
 ## Usage guide
 
 1. Navigate and Initialize the poetry project & install dependencies
-'''bash
+   
+``` bash
 cd data_comparison_demo
 poetry init
 poetry install
-'''
+```
 
-3. Run the script 
-'''bash
+2. Run the script
+   
+``` bash
 poetry shell
 python main.py
-''' 
+``` 
 
-4. View the results that can be found in the reports folder.
+5. View the results that can be found in the reports folder.
 
 ## Enhancements
 - Only general errors are being caught.
