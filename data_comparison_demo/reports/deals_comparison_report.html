@@ -1,0 +1,51 @@
+DataComPy Comparison
+--------------------
+
+DataFrame Summary
+-----------------
+
+         DataFrame  Columns  Rows
+0  yesterday_deals       10   100
+1      today_deals       10   100
+
+Column Summary
+--------------
+
+Number of columns in common: 10
+Number of columns in yesterday_deals but not in today_deals: 0
+Number of columns in today_deals but not in yesterday_deals: 0
+
+Row Summary
+-----------
+
+Matched on: index
+Any duplicates on match values: No
+Absolute Tolerance: 0
+Relative Tolerance: 0
+Number of rows in common: 100
+Number of rows in yesterday_deals but not in today_deals: 0
+Number of rows in today_deals but not in yesterday_deals: 0
+
+Number of rows with some compared columns unequal: 2
+Number of rows with all compared columns equal: 98
+
+Column Comparison
+-----------------
+
+Number of columns compared with some values unequal: 1
+Number of columns compared with all values equal: 9
+Total number of values which compare unequal: 2
+
+Columns with Unequal Values or Types
+------------------------------------
+
+       Column yesterday_deals dtype today_deals dtype  # Unequal  Max Diff  # Null Diff
+0  status                    object            object          2       0.0            0
+
+Sample Rows with Unequal Values
+-------------------------------
+
+  status     (yesterday_deals) status     (today_deals)
+4                   pending                cancelled   
+1                   pending                 complete   
+
